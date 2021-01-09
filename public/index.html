@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>ChatApp</title>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/socket.io/3.0.5/socket.io.js" integrity="sha512-2rUSTSAeOO02jF6eBqENNqPs1EohenJ5j+1dgDPdXSLz9nOlrr8DJk4zW/lDy8rjhGCSonW3Gx812XJQIKZKJQ==" crossorigin="anonymous"></script>
+      <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+      <div id="mario-chat">
+            <div id="chat-window">
+                  <div id="output"></div>
+                  <div id="feedback"></div>
+            </div>
+            <input id="handle" type="text" placeholder="Handle"/>
+            <input id="message" type="text" placeholder="Messsage"/>
+            <button id="send">Send</button>
+      </div>
+      <script src="/chat.js"></script>
+</body>
+</html>
